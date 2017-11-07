@@ -1,0 +1,176 @@
+html,a,section,header,footer,body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,i,span,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+    margin: 0;
+    padding:0;
+}
+html{
+    font-family:"微软雅黑",Arial;
+    font-size: 26.67vw;
+}
+html,body{
+    width: 100%;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:0;
+}
+ul,li{
+    list-style: none;
+}
+#header{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #05a3fe;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+#header h1{
+    font-size: 0.22rem;
+    color: #fff;
+    font-weight: 100;
+    margin-left: 1.5rem;
+}
+#header h2{
+    font-size: 0.2rem;
+    color: #fff;
+    font-weight: 100;
+    margin-right: 0.15rem;
+}
+#section{
+    width:95%;
+    margin-left:5%;
+    /*overflow-y: auto;*/
+     margin-top: 0.5rem;
+     margin-bottom: 0.5rem;
+}
+.section_header{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_header span:nth-of-type(1){
+    font-size: 0.16rem;
+    color: #313131;
+}
+.section_header span:nth-of-type(2){
+    font-size: 0.14rem;
+    color: #70a4af;
+    margin-right: 0.15rem;
+}
+/*未付款*/
+.nomoney{
+    display: flex;
+}
+.nomoney img{
+    width: 0.45rem;
+    height: 0.45rem;
+}
+.nomoney_right{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+}
+.nomoney_right p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nomoney_right p span:nth-of-type(1){
+    font-size: 0.16rem;
+    color: #1b1b1b;
+}
+.nomoney_right p i{
+    display: inline-block;
+    width: 0.16rem;
+    height: 0.16rem;
+}
+.nomoney_right p span:nth-of-type(2){
+    font-size: 0.14rem;
+    color: #549dc0;
+}
+.nomoney_right h1{
+    font-size: 0.12rem;
+    color: #a0a0a0;
+}
+.nomoney_right h2{
+    color: #787878;
+    font-size: 0.16rem;
+}
+.nomoney_right h3{
+    display: flex;
+    align-items: center;
+}
+.nomoney_right h3 i{
+    font-size: 0.14rem;
+    font-style: normal;
+    color: #303030;
+}
+.nomoney_right h3 span{
+    font-size: 0.14rem;
+    font-style: normal;
+    color: #303030;
+}
+.nomoney_right a{
+    display: inline-block;
+    width: 1.78rem;
+    height: 0.33rem;
+    text-align: center;
+    line-height: 0.33rem;
+    color: #aa7a6e;
+    font-size: 0.16rem;
+    border: 1px solid #aa7a6e;
+    margin-left:1rem ;
+}
+.footer{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    border-top: 1px solid #f5f5f5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  background: #fff;
+}
+.footer a{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer a i{
+    display: inline-block;
+    width: 0.22rem;
+    height: 0.22rem;
+}
+.footer a .i_01{
+    background: url("../images/detail-img/order_elm.png") no-repeat;
+    background-size: 100%;
+}
+.footer a .i_02{
+    background: url("../images/detail-img/order_faxian.png") no-repeat;
+    background-size: 100%;
+}
+.footer a .i_03{
+    background: url("../images/detail-img/order_dingdan .png") no-repeat;
+    background-size: 100%;
+}
+.footer a .i_04{
+    background: url("../images/detail-img/order_me.png") no-repeat;
+    background-size: 100%;
+}
+.footer a span{
+    font-size: 0.12rem;
+    color:#7f7f7f;
+}

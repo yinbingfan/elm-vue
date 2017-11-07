@@ -1,0 +1,181 @@
+html,a,section,header,footer,body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,i,span,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+    margin: 0;
+    padding:0;
+}
+html{
+    font-family:"微软雅黑",Arial;
+    font-size: 26.67vw;
+}
+html,body{
+    width: 100%;
+    background: #f5f5f5;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:0;
+}
+ul,li{
+    list-style: none;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    height:0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background:#009aff;
+    width: 100%;
+    z-index: 100;
+}
+header div{
+    display: flex;
+    align-items:center;
+}
+header div i{
+    display: inline-block;
+    width: 0.20rem;
+    height: 0.20rem;
+    background:url("../images/detail-img/zuo.png") no-repeat center;
+    background-size: 100%;
+    margin-left: 0.15rem;
+    margin-right: 0.44rem;
+}
+header div h1{
+    font-size: 0.18rem;
+    font-weight: 100;
+
+}
+header h2{
+    font-size: 0.18rem;
+    font-weight: 100;
+    margin-right: 0.16rem;
+}
+section{
+    width: 100%;
+    margin-top: 0.85rem;
+    padding-top: 0.18rem;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inpsBox{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.inpText{
+    width:100%;
+    height: 0.48rem;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    font-size: 0.18rem;
+    font-weight: 700;
+    color: black;
+    text-indent: 0.2rem;
+}
+.inpBot{
+    width: 1.2rem;
+    height:0.45rem;
+    background: #2395ff;
+    position: absolute;
+    top:0.04rem;
+    right: 0.02rem;
+    border: 1px solid #ffffff;
+    border-radius: 0.05rem;
+    color: #fff;
+    font-size: 0.18rem;
+}
+.inpShow{
+    width: 100%;
+    height: 0.45rem;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+}
+.inpSbm{
+    width:95%;
+    height: 0.45rem;
+    border: 1px solid #f5f5f5;
+    background: #4dc060;
+    border-radius: 0.05rem;
+    font-size: 0.20rem;
+    color: #fff;
+}
+form p{
+    font-size: 0.16rem;
+    color: #666666;
+    padding: 0.26rem 0.1rem;
+}
+form p a{
+    color: #1390cf;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: #f5f5f5;
+}
+footer p{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+footer p i{
+    display: inline-block;
+    width:0.18rem;
+    height:0.01rem;
+    background: #cccccc;
+}
+footer p span{
+    font-size: 0.16rem;
+    color: #b3b3b3;
+    margin: 0 0.1rem;
+}
+.footer_Bottom{
+    display: flex;
+    width: 100%;
+    margin: 0.3rem 0;
+}
+.footer_Bottom a{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b3b3b3;
+    font-size: 0.15rem;
+
+}
+.weixin{
+    width: 0.45rem;
+    height: 0.45rem;
+    background: url("../images/detail-img/weixin.png") no-repeat center;
+    background-size: 100%;
+}
+.qq{
+    width: 0.45rem;
+    height:0.45rem;
+    background: url("../images/detail-img/qq .png") no-repeat center;
+    background-size: 100%;
+}
+.weibo{
+    width: 0.45rem;
+    height: 0.45rem;
+    background: url("../images/detail-img/weibo.png") no-repeat center;
+    background-size: 100%;
+}
+.taobao{
+    width: 0.45rem;
+    height: 0.45rem;
+    background: url("../images/detail-img/tao.png") no-repeat center;
+    background-size: 100%;
+}
